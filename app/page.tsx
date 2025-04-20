@@ -10,7 +10,7 @@ export default function IntegromedToolkit() {
   return (
     <div className="p-6 space-y-6">
       <img src="/integromed_logo.png" alt="Integromed Logo" className="w-48 mb-4" />
-<h1 className="text-3xl font-bold">Integromed Digital Toolkit</h1>
+      <h1 className="text-3xl font-bold">Integromed Digital Toolkit</h1>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
         <div className="col-span-1">
           <nav className="space-y-4">
@@ -33,6 +33,14 @@ export default function IntegromedToolkit() {
               <CardContent className="p-4">
                 <h2 className="text-lg font-semibold text-blue-600">Wall Systems</h2>
                 <p className="text-sm">Technical data sheet</p>
+                <a
+                  href="/wall-systems.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-blue-500 underline block mt-2"
+                >
+                  View PDF
+                </a>
               </CardContent>
             </Card>
 
